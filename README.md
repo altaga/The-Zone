@@ -79,6 +79,14 @@ Primero que nada debes saber que para desarollar en el M5Core2 tenemos 4 opcione
 
 Para este desarrollo se prefirio Arduino IDE debido a la expreiencia de utilizar el ESP32 antes en proyectos de IoT, ya que todos los codigos utilizados para el ESP32 funcionan correctamente en esta board. En la carpeta Arduino Test, dejaremos un codigo sencillo para que puedas familiarizarte con la programacion del M5Core2 en el Arduino IDE.
 
+[Test Code](https://github.com/altaga/The-Zone/tree/main/Arduino%20Test/M5StackTestRTCwWiFiSyncNTP)
+
+Si puedes ver lo siguiente en la pantalla, estamos listos para pasar a programar el codigo principal.
+
+[![Test](./Images/logo.png)](https://youtu.be/tO4BJops1-s)
+
+El [Main Code](https://github.com/altaga/The-Zone/tree/main/Arduino%20Test/M5StackTestRTCwWiFiSyncNTP) tiene las siguientes partes importantes.
+
 
 
 # AWS Services:

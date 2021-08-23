@@ -72,6 +72,13 @@ Cloud Services:
 
 # M5 Core2 AWS Setup:
 
+Primero que nada debes saber que para desarollar en el M5Core2 tenemos 4 opciones ecepcionales para ello, [FreeRTOS](https://aws.amazon.com/freertos/), [MicroPython](http://micropython.org/), [UIFlow](https://flow.m5stack.com/), [Arduino](https://www.arduino.cc/) development frameworks.
+
+* Arduino Library for M5Core2 [Library Link](https://github.com/m5stack/M5Core2)
+* Arduino ESP32 Support [Repository Link](https://github.com/espressif/arduino-esp32)
+
+Para este desarrollo se prefirio Arduino IDE debido a la expreiencia de utilizar el ESP32 antes en proyectos de IoT, ya que todos los codigos utilizados para el ESP32 funcionan correctamente en esta board. En la carpeta Arduino Test, dejaremos un codigo sencillo para que puedas familiarizarte con la programacion del M5Core2 en el Arduino IDE.
+
 
 
 # AWS Services:

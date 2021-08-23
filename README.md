@@ -85,7 +85,7 @@ Si puedes ver lo siguiente en la pantalla, estamos listos para pasar a programar
 
 [![Test](./Images/logo.png)](https://youtu.be/tO4BJops1-s)
 
-El [Main Code](https://github.com/altaga/The-Zone/tree/main/Arduino%20Test/M5StackTestRTCwWiFiSyncNTP) tiene las siguientes partes importantes.
+El [Main Code](https://github.com/altaga/The-Zone/tree/main/Arduino%20Code/TheZone) tiene las siguientes partes importantes.
 
 
 

@@ -266,7 +266,7 @@ WebPage: https://d3vv2w0ip0ot9g.cloudfront.net/
 
 La pagina web es ya funcional y esta hosteada en AWS, mas detalles en [Hosting](#aws-s3), sin embargo para hacerla funcionar requerimos algunos datos de AWS IoT y Cognito.
 
-Estas credenciales las pondremos en el archivo []()
+Estas credenciales las pondremos en el archivo [aws-configuration.js](https://github.com/altaga/The-Zone/blob/main/WebPage/src/components/aws-configuration.js)
 
 ### IoT Credentials:
 
@@ -279,14 +279,56 @@ Topic:
 
 ### Cognito Credentials:
 
+Las credenciales de Cognito es una forma segura de consumir recursos de AWS, en este caso crearemos una credencial de cognito la cual podamos consumir desde nuestra app.
+
+<img src="./Images/cognito.png">
+
 ### ReactJS IoT Component:
+
+Si la configuracion del archivo [aws-configuration.js](https://github.com/altaga/The-Zone/blob/main/WebPage/src/components/aws-configuration.js) fue correcta, deberemos ver el siguiente mensaje dentro de nuestra WebApp.
+
+<img src="./Images/webapp.png">
+
+Porfavor revisar el codigo de la webapp para mas detalles.
+
+[WebApp](https://github.com/altaga/The-Zone/tree/main/WebPage/src)
 
 ## AWS S3:
 
+Ahora para poder desplegar nuestra pagina web al mundo deberemos hostearla en AWS, por lo tanto usaremos el static website hosting de un bucket S3 para obtener nuestra pagina web.
+
+<img src="./Images/s31.png">
+
+Ahora configurando la opcion de Static Website Hosting obtendremos nuestro link http de nuestra pagina web, sin embargo para una version de produccion esto no es suficiente.
+
+<img src="./Images/s32.png">
+
 ## AWS CloudFront:
+
+Para una version de produccion de una aplicacion es siempre necesario utilizar un servicio CDN, el cual sirva para mantener una baja latencia entre usuarios y la app.
+
+<img src="./Images/cloudfront.png">
+
+El link que obtenemos de Cloudfront sera un link https el cual sera el link final de la app.
+
+WebPage: https://d3vv2w0ip0ot9g.cloudfront.net/
 
 # Final Product:
 
+<img src="./Images/device.jpg">
+
 # WebPage:
 
+La pagina web de diseño como una web app para desktop y para mobil.
+
+Desktop:
+
+<img src="./Images/web1.png">
+
+Mobile:
+
+<img src="./Images/web2.png" height="300">
+
 # EPIC DEMO:
+
+[![DEMO](./Images/logo.png)](PENDING...)

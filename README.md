@@ -332,8 +332,8 @@ Mobile:
 
 # Field Test:
 
-[![DEMO](./Images/logo.png)](https://youtu.be/D61qAsW6VDI)
+[![DEMO](./Images/logo.png)](https://youtu.be/tTnYknAwxg0)
 
 # EPIC DEMO:
 
-[![DEMO](./Images/logo.png)](PENDING...)
+[![DEMO](./Images/logo.png)](https://youtu.be/75XoH2JduJY)

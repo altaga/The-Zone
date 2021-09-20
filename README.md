@@ -29,10 +29,6 @@
 
 # Introduction:
 
-Help Maintain establishments with the maximum number of people recommended by law.
-
-# Solution:
-
 According to Statista, more than 85% of adults in the United States own a cell phone, thanks to that I develop a system based on the analysis of BT devices within establishments in order to carry out a census of the people who are in the establishment.
 
 https://www.statista.com/statistics/219865/percentage-of-us-adults-who-own-a-smartphone/
@@ -48,6 +44,10 @@ Current systems use sensors, video cameras and high infrastructure costs to inst
 Our solution offers a plug and play solution that will easily allow the counting of people without large infrastructures with a simple deployment in a web app and notifications.
 
 WebPage: https://d3vv2w0ip0ot9g.cloudfront.net/
+
+# Solution:
+
+We will build an IoT device to Help Maintain establishments with the maximum number of people recommended by law.
 
 # Materials:
 
